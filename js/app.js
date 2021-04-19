@@ -100,9 +100,12 @@ Total.prototype.render = function(){
 
   for (let i = 0 ; i < numberOfHours.length;i++){
 
-    let totalHour = [this.h1[i]+this.h2[i]+this.h3[i]+this.h4[i]+this.h5[i]];
+    let totalHour = (this.h1[i]+this.h2[i]+this.h3[i]+this.h4[i]+this.h5[i]);
     this.totalTotals.push(totalHour);
+    const tdElementT = document.createElement('td');
+    trElementT.appendChild(tdElementT);
     tdElementT.textContent = this.totalTotals[i];
+
     console.log(this.totalTotals[i]);
   }
 };
