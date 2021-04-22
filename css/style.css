@@ -1,0 +1,50 @@
+h1 {
+    text-align: center;
+    
+}
+
+header {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    align-items: center;
+    background-color: burlywood;
+    width: 546px;
+  }
+  header a {
+    text-align: right;
+  }
+header img {
+    margin-left: 500px;
+}
+
+a {
+    float: right;
+    font-size: 40px;
+}
+
+ul img {
+width: 500px;
+}
+
+.shirt {
+    height: 150px;
+    margin-left: 300px;
+}
+
+.chinook{
+width: 350px;
+}
+
+.salmon{
+width: 350px;
+}
+
+
+.cutter{
+    height: 200px;
+}
+
+footer ul li {
+    display: inline;
+    margin-left: 100px;
+}
